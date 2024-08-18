@@ -3,9 +3,15 @@ import java.awt.*;
 
 public class Main extends JPanel {
 
+    public static final int CELL = 50;
+    public static final int WIDTH = 500;
+    public static final int HEIGHT = 500;
+    public static final int ROW = WIDTH / CELL;
+    public static final int COLUMN = HEIGHT / CELL;
+
     @Override
     public Dimension getPreferredSize() {
-        return new Dimension();
+        return new Dimension(WIDTH, HEIGHT);
     }
 
 
