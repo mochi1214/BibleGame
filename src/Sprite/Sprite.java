@@ -11,6 +11,5 @@ public abstract class Sprite {
 
     public void draw(Graphics g) {
         img.paintIcon(null, g, absolutePosition.x, absolutePosition.y);
-        
     }
 }
